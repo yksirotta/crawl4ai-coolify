@@ -1,6 +1,6 @@
 services:
   crawl4ai:   # Simplified service name
-    image: unclecode/crawl4ai:${VERSION:-basic}-amd64
+    image: unclecode/crawl4ai:${VERSION:-gpu}-amd64
     ports:
       - "11235:11235"
       - "8025:8000"
